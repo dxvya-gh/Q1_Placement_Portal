@@ -1,0 +1,143 @@
+ html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Placement Portal</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f2f4f8;
+            color: #222;
+        }
+
+        header {
+            background: #17365d;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background: #244a73;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 25px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 22px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #00000015;
+        }
+
+        .stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .stat {
+            flex: 1;
+            min-width: 150px;
+            background: #e5edf7;
+            padding: 15px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        h2 {
+            color: #17365d;
+        }
+
+        footer {
+            background: #17365d;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Student Placement Portal</h1>
+        <p>Career Opportunities and Campus Recruitment</p>
+    </header>
+
+    <nav>
+        <a href="#statistics">Statistics</a>
+        <a href="#companies">Companies</a>
+        <a href="#drives">Recruitment Drives</a>
+    </nav>
+
+    <main class="container">
+        <section class="card">
+            <h2>Welcome to the Placement Cell</h2>
+            <p>
+                Explore placement opportunities, review company profiles,
+                check eligibility requirements, and stay informed about
+                upcoming campus recruitment drives.
+            </p>
+        </section>
+
+        <section class="card" id="statistics">
+            <h2>Placement Statistics - 2026</h2>
+            <div class="stats">
+                <div class="stat">
+                    <h3>850+</h3>
+                    <p>Students Placed</p>
+                </div>
+                <div class="stat">
+                    <h3>120+</h3>
+                    <p>Recruiting Companies</p>
+                </div>
+                <div class="stat">
+                    <h3>₹12 LPA</h3>
+                    <p>Average Package</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card" id="companies">
+            <h2>Company Information</h2>
+            <ul>
+                <li><strong>TCS:</strong> IT services and software development</li>
+                <li><strong>Infosys:</strong> Consulting and technology services</li>
+                <li><strong>Accenture:</strong> Technology and business consulting</li>
+                <li><strong>Microsoft:</strong> Software engineering and cloud technology</li>
+            </ul>
+        </section>
+
+        <section class="card" id="drives">
+            <h2>Upcoming Recruitment Drives</h2>
+            <ul>
+                <li>TCS - Software Engineer - November 5, 2026</li>
+                <li>Infosys - Systems Engineer - November 12, 2026</li>
+                <li>Accenture - Associate Software Engineer - November 18, 2026</li>
+            </ul>
+            <p>Check eligibility criteria and placement cell announcements before applying.</p>
+        </section>
+    </main>
+
+    <footer>
+        Student Placement Portal | Placement Cell
+    </footer>
+</body>
+</html>
